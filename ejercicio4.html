@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO4</title>
+</head>
+<body>
+    <script>
+        var respuesta = "TEGUCIGALPA";
+     var acierto = false;
+
+     for(var contador = 1; contador<=3; contador++){
+         var respUsuario = prompt("CAPITAL DE HONDURAS: ")
+       if(respUsuario.toUpperCase() === respuesta){
+           var acierto = true
+           document.write(`FELICIDADES, ACERTASTE`)
+           break
+       } 
+     }
+     if(acierto=== false){
+         document.write(`LO SIENTO YA NO TIENES TIEMPO`)
+     }
+
+    </script>
+</body>
+</html>
